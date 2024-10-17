@@ -2,6 +2,8 @@
 # include <string.h>
 #include <stdbool.h>
 //methods for sorting come here :>
+//list of sorting algorithms to be implemented:
+//bubble sort, selection sort, stalin sort, sleep sort 
 
 
 int main(){
@@ -10,7 +12,7 @@ int main(){
     bool isRunning = true;
     while(isRunning){
         printf("You will search!\n");
-        scanf("%200s", &command);
+        scanf("%200s", command);
         //here we compare the char arrays with strcmp(str1,str2)
         //should return 0 if str1 = str2 :)
     }
