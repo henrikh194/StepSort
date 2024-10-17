@@ -10,7 +10,7 @@ int main(){
     bool isRunning = true;
     while(isRunning){
         printf("You will search!\n");
-        scanf("%c", &command);
+        scanf("%200s", &command);
         //here we compare the char arrays with strcmp(str1,str2)
         //should return 0 if str1 = str2 :)
     }
